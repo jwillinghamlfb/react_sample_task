@@ -1,0 +1,9 @@
+tasks:
+  - init: cd client
+    command: npm install
+tasks2:
+  - command: npm start
+# Ports to expose on workspace startup
+ports:
+  - port: 3000
+    onOpen: open-preview
